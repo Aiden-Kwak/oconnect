@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Navbar</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;531;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./oconnect.css" type="text/css">
+
+</head>
+
+<body>
+    <header class="header-area navbar-fade" id="header">
+        <nav class="navbar">
+            <a class="navbar-logo" id="navbarLogo"><img src="img/logo.png" alt="logo"></a>
+            <a class="navbar-brand" id="navbarBrand">&emsp;o:connect</a>
+            <a class="navbar-toggler" id="toggleBtn"><i class="fa fa-bars"></i></a>
+            <div class="navbar-menu" id="menu">
+                <div class="nav-item"><a class="nav-link" id="navbarAbout">about</a></div>
+                <div class="nav-item"><a class="nav-link" id="navbarService">service</a></div>
+                <div class="nav-item"><a class="nav-link" id="navbarPortfolio">portfolio</a></div>
+                <div class="nav-item"><a class="nav-link" id="navbarReview">review</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="section-container">
+        <div class="welcome-area">
+            <div class="container">
+                <div class="image-slide fade">
+                    <img src="img/product1.png" alt="product1">
+                </div>
+                <div class="image-slide fade">
+                    <img src="img/product2.png" alt="product2">
+                </div>
+                <div class="image-slide fade">
+                    <img src="img/product3.png" alt="product3">
+                </div>
+                <div class="image-slide fade">
+                    <img src="img/product4.png" alt="product4">
+                </div>
+                <a class="image-prev" id="imagePrev">&#10094;</a>
+                <a class="image-next" id="imageNext">&#10095;</a>
+
+                <div class="dots">
+                    <span class="dot" id="firstDot"></span>
+                    <span class="dot" id="secondDot"></span>
+                    <span class="dot" id="thirdDot"></span>
+                    <span class="dot" id="forthDot"></span>
+                </div>
+            </div>
+        </div>
+        <section class="about-area" id="about">
+            <div class="title">
+                ABOUT
+            </div>
+            <div class="picture">
+                <img src="img/logo_big.png" alt="logoBig">
+                <img src="img/oconnectLogo-text.PNG" alt="logotext">
+                <!-- <div class="name">NAME</div>
+                <div class="description">혹시나해서 만든 칸</div> -->
+            </div>
+            <div class="text">
+                <div class="intro">
+                    오커넥트는 2020년 개업한 제조회사로 지금까지 없었던 새로운 콘센트를 제작합니다. 
+                    어둡고, 보이지 않는 곳에 위치한 콘센트에 어느방향으로 플러그를 삽입하더라도 쉽게 체결되는 콘센트입니다.
+                    <br>
+                    <br>
+                    [2017.08.30] 전국창업발명경진대회 교육부 대상<br>
+                    [2017.11.27] 성균관대학교 창업경진대회 장려상<br>
+                    [2019.11.06. ~ 2019.11.08] 2019 산학협력 EXPO 학생창업유망팀 300 상위 50팀으로 시제품 전시회 참가<br>
+                    [2019.11.08] UNIST Startup Competition (UNIST) 2019, 3위<br>
+                    [2019.11.15] 과기특성화대학 공동창업경진대회 (KAIST) 2019, - KAIST, POSTECH, GIST, UNIST, DGIST와 참여<br>
+                    [2019.11.15~] K-Camp Busan 1기(Krypton) , Participant <br>
+                    [2020.04.29] 예비창업패키지 2020 일반분야 (중소벤처기업부 창업지원사), 70,000,000 won 지원
+
+
+
+
+                    
+                </div>
+                <ul>
+                    <li>
+                        <div class="info">
+                            <i class="far fa-calendar-alt"></i> 18st June, 2020
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <i class="fa fa-phone"></i> +82 10-9004-4993
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <i class="fa fa-envelope"></i> www.oconnect.co.kr
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info">
+                            <i class="fa fa-home"></i> 울산과학기술원 울주학사 1층 UNISPARK
+                        </div>
+                    </li>
+                </ul>
+                <div class="sns">
+                    <a href="https://www.facebook.com/Oconnect-100615271652569" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/?lang=ko" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://kr.linkedin.com/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-google-plus-g" target="_blank"></i>
+                    </a>
+                    <a href="https://www.instagram.com/oconnect_official/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-area" id="service">
+            <div class="title">
+                BUSINESS MODEL
+            </div>
+            <div class="container">
+                <div class="item">
+                    <!-- <div class="icon"><span><i class="fab fa-js-square"></i></span></div> -->
+                    <div class="service">B2C</div>
+                    <div class="content">Business To Customer! 전자제품 사용이 잦고 새로움을 열망하는 젊은 세대를에게!</div>
+                    <a class="corp-icon"><img src="img/wadiz-icon.jpg" alt="wadiz"></a>
+                    <a class="corp-icon"><img src="img/tumblebug-icon.png" alt="tumblebug"></a>
+                    <a class="corp-icon"><img src="img/amazon-icon.jpg" alt="amazon"></a>
+                    <a class="corp-icon"><img src="img/artbox-icon.png" alt="artbox"></a>
+                    <a class="corp-icon"><img src="img/coupang-icon.png" alt="coupang"></a>
+                    <a class="corp-icon"><img src="img/daiso-icon.jpg" alt="daiso"></a>
+                </div>
+                <div class="item">
+                    <!-- <div class="icon"><span><i class="fab fa-java"></i></span></div> -->
+                    <div class="service">B2B</div>
+                    <div class="content">Business To Business! 대중에게 공공장소를 제공하는 수많은 기업들에게!</div>
+                    <a class="caffe-icon"><img src="img/pascucci-icon.png" alt="pascucci"></a>
+                    <a class="caffe-icon"><img src="img/starbucks-icon.png" alt="starbucks"></a>
+                    <a class="caffe-icon"><img src="img/tomntoms-icon.png" alt="tomntoms"></a>
+                    <a class="caffe-icon"><img src="img/twosome-icon.png" alt="twosome"></a>
+                    <a class="caffe-icon"><img src="img/angelinus-icon.png" alt="angelinus"></a>
+                    <a class="caffe-icon"><img src="img/caffebene-icon.png" alt="caffebene"></a>
+                    <a class="caffe-icon"><img src="img/ediya-icon.jpg" alt="ediya"></a>
+                    <a class="caffe-icon"><img src="img/hollys-icon.jpg" alt="hollys"></a>
+                </div>
+                <div class="item">
+                    <!-- <div class="icon"><span><i class="fas fa-database"></i></span></div> -->
+                    <div class="service">B2G</div>
+                    <div class="content">Business To Government! 대중에게 공공장소를 제공하는 공기업들에게!</div>
+                    <a class="gov-icon"><img src="img/incheonAir-icon.jpg" alt="incheonAir"></a>
+                    <a class="gov-icon"><img src="img/KAC-icon.jpg" alt="KAC"></a>
+                    <a class="gov-icon"><img src="img/korail-icon.jpg" alt="korail"></a>
+                    <a class="gov-icon"><img src="img/LH-icon.png" alt="LH"></a>
+                    <a class="gov-icon"><img src="img/seoulMetro-icon.jpg" alt="metro"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-area" id="portfolio">
+            <div class="title">
+                PORTFOLIO
+            </div>
+            <div class="filter">
+                <ul class="list">
+                    <li class="listItem active" id="all">
+                        ALL
+                    </li>
+                    <li class="listItem" id="uiux">
+                        PRODUCT
+                    </li>
+                    <li class="listItem" id="java">
+                        BLUEPRINT
+                    </li>
+                    <li class="listItem" id="db">
+                        PLAN
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="filterItem uiux">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/portfolio1.jpg" alt="computer">
+
+                    </div>
+                    <div class="main">
+                        메인 제목
+                    </div>
+                    <div class="sub">
+                        부제목
+                    </div>
+                    <div class="text">
+                        포트폴리오 상세설명
+                    </div>
+
+                </div>
+                <div class="filterItem uiux">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/portfolio2.png" alt="soloconcent">
+
+                    </div>
+                    <div class="main">
+                        메인 제목
+                    </div>
+                    <div class="sub">
+                        부제목
+                    </div>
+                    <div class="text">
+                        포트폴리오 상세설명
+                    </div>
+
+                </div>
+                <div class="filterItem java">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/product2.png" alt="multitab">
+
+                    </div>
+                    <div class="main">
+                        메인 제목
+                    </div>
+                    <div class="sub">
+                        부제목
+                    </div>
+                    <div class="text">
+                        포트폴리오 상세설명
+                    </div>
+
+                </div>
+                <div class="filterItem uiux">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/portfolio3.jpg.png" alt="pastversion">
+
+                    </div>
+                    <div class="main">
+                        메인 제목
+                    </div>
+                    <div class="sub">
+                        부제목
+                    </div>
+                    <div class="text">
+                        포트폴리오 상세설명
+                    </div>
+
+                </div>
+                <div class="filterItem java uiux">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/product1.png" alt="wallE">
+
+                    </div>
+                    <div class="main">
+                        메인 제목
+                    </div>
+                    <div class="sub">
+                        부제목
+                    </div>
+                    <div class="text">
+                        포트폴리오 상세설명
+                    </div>
+
+                </div>
+                <div class="filterItem java">
+                    <div class="image">
+                        <div class="overlay"><i class="far fa-image"></i></div>
+                        <img src="img/product3.png" alt="sakura">
+
+                    </div>
+                    <div class="main">
+                        메인 제목
+                    </div>
+                    <div class="sub">
+                        부제목
+                    </div>
+                    <div class="text">
+                        포트폴리오 상세설명
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="review-area" id="review">
+            <div class="title">
+                REVIEW
+            </div>
+            <div class="container">
+                <a class="review-prev" id="reviewPrev">&#10094;</a>
+                <a class="review-next" id="reviewNext">&#10095;</a>
+
+                <div class="review-slide res-show">
+                    <div class="image">
+                        <img src="img/character-icon5.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁1
+                    </div>
+                    <div class="job">
+                        백수/학생
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide show">
+                    <div class="image">
+                        <img src="img/character-icon2.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁2
+                    </div>
+                    <div class="job">
+                        백수/학생
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide show">
+                    <div class="image">
+                        <img src="img/character-icon3.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁3
+                    </div>
+                    <div class="job">
+                        백수/학생
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/character-icon4.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁4
+                    </div>
+                    <div class="job">
+                        백수/학생
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/character-icon5.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁5
+                    </div>
+                    <div class="job">
+                        백수/학생
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/character-icon6.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁6
+                    </div>
+                    <div class="job">
+                        학생/백수
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/character-icon7.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁7
+                    </div>
+                    <div class="job">
+                        학생/백수
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/character-icon8.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁8
+                    </div>
+                    <div class="job">
+                        학생/백수
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/character-icon5.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁9
+                    </div>
+                    <div class="job">
+                        학생/백수
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/character-icon2.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁10
+                    </div>
+                    <div class="job">
+                        학생/백수
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="review-slide hide">
+                    <div class="image">
+                        <img src="img/character-icon3.png" alt="man">
+                    </div>
+                    <div class="name">
+                        곽병혁11
+                    </div>
+                    <div class="job">
+                        학생/백수
+                    </div>
+                    <div class="text">
+                        <i>사용후기는 매우 만족합니다. 다음에도 이용할 수 있었으면 좋겠습니다. 후기 적는 칸임.</i>
+                    </div>
+                    <div class="rating">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="far fa-star"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="footer-area">
+        <div class="sns">
+            <div class="item" id="facebook"><i class="fab fa-facebook-square"></i></div>
+            <div class="item" id="twitter"><i class="fab fa-twitter"></i></div>
+            <div class="item" id="linkedin"><i class="fab fa-linkedin"></i></div>
+            <div class="item" id="google"><i class="fab fa-google-plus"></i></div>
+            <div class="item" id="instagram"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="info">
+            <p>Copyright &copy; 2020 Duckracoon. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+    <div id="portfolioModal" class="modal">
+        <span class="close" id="modalClose">&times;</span>
+        <div class="container">
+            <img id="modalImage" src="" alt="">
+            <div id="modalMain" class="modal-main"></div>
+            <div id="modalSub" class="modal-sub"></div>
+            <div id="modalText" class="modal-text"></div>
+        </div>
+
+    </div>
+
+    <!-- user script -->
+    <script src="oconnect.js"></script>
+</body>
+
+</html>
